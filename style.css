@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+#86E4E8 verde agua
+#F6C90E amarelo
+#3A4750 background ---> #252525
+*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #252525;
+  color: #faebd7;
+  scroll-behavior: smooth;
+}
+
+button {
+  background-color: #f6c90e;
+  color: #252525;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  padding-left: 2rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+h2 {
+  font-size: 4.5rem;
+}
+
+.emphasis {
+  color: #f6c90e;
+}
+
+.header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  /*background-color: #252525;
+  z-index: 1;*/
+}
+
+/*.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}*/
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home,
+.contact,
+.about {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact,
+.about {
+  height: 100vh;
+}
+
+.footer {
+  height: 30vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.scooter-girl,
+.slogan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 50%;
+  flex: 1;
+}
+
+svg {
+  max-width: 400px;
+}
